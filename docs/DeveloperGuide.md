@@ -325,21 +325,20 @@ be able to view the applicant from the list.
 
 **MSS**
 
-1. User request to delete an applicant in TrackAScholar.
-2. User types in the information of the applicant to delete.
-3. Applicant with the matching information is removed from the list
+1. User types in the information of the applicant to delete.
+2. Applicant with the matching information is removed from the list
    Use case ends.
 
 **Extensions**
 
-* 2a. Input format is wrong.
+* 1a. Input format is wrong.
 
-    * 2a1. TrackAScholar displays an error message prompting correct input format. <br>
+    * 1a1. TrackAScholar displays an error message prompting correct input format. <br>
       Use case resumes at step 1.
 
-* 2b. Input parameters is invalid.
+* 1b. Input parameters is invalid.
 
-    * 2b1. TrackAScholar displays an error message showing parameter requirements. <br>
+    * 1b1. TrackAScholar displays an error message showing parameter requirements. <br>
       Use case resumes at step 1.
 
 * 2c. Verify deletion.
@@ -358,7 +357,7 @@ be able to view the applicant from the list.
 2. Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 3. A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
 4. Product should not be required to handle the contacting of applicants.
-5. Should be easy to learn and use(User should know how to use the product with ease just by reading the user guide)
+
 
 *{More to be added}*
 
